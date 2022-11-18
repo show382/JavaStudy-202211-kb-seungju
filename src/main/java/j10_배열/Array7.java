@@ -8,7 +8,7 @@ public class Array7 {
             System.out.println(a[i] + (i != a.length - 1 ? ", " : ""));
         }
 
-        int[] b = a;//주소가 같아 진것이다
+        int[] b = a;//주소가 같아 진것이다!!!
 
         if(a==b){
             System.out.println("같다");
