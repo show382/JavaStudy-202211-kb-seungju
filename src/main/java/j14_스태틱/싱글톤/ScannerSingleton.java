@@ -9,14 +9,14 @@ public class ScannerSingleton {
     private static ScannerSingleton instance = null;
 
 @Getter
-    private Scanner scanner;
+    private    Scanner scanner;
 
     //1. 생성자가 private 접근지정자여야 한다.
     private ScannerSingleton() {
         scanner = new Scanner(System.in);
     }
 
-    public static ScannerSingleton Instance() {
+    public static ScannerSingleton getInstance() {
         if (instance == null) {
             instance = new ScannerSingleton();
         }

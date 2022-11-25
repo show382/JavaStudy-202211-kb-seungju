@@ -6,7 +6,8 @@ public class Scanner1 {
 
     public void inputName(){
         String name =null;
-        Scanner scanner =  ScannerSingleton.Instance().getScanner();
+        ScannerSingleton scannerSingleton = ScannerSingleton.getInstance();
+        Scanner scanner = scannerSingleton.getScanner();
 
         System.out.println("이름을 입력하세요: ");
         name = scanner.nextLine();
