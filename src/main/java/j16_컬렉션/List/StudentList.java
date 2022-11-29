@@ -10,11 +10,11 @@ public class StudentList {
 
 //        Student student = new Student(20220001,"문승주", 4 );
 
-        students.add(new Student(20220001, "이승아", 21));
-        students.add(new Student(20220002, "문승주", 31));
-        students.add(new Student(20220003, "문경원", 27));
-        students.add(new Student(20220004, "홍지혜", 24));
-        students.add(new Student(20220005, "고동현", 25));
+        students.add(new Student(20220001, "이승아", 21, null));
+        students.add(new Student(20220002, "문승주", 31, null));
+        students.add(new Student(20220003, "문경원", 27, null));
+        students.add(new Student(20220004, "홍지혜", 24, null));
+        students.add(new Student(20220005, "고동현", 25, null));
 
 //        Student student2 = students.get(2);
 //
