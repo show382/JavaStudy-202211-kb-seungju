@@ -10,7 +10,7 @@ public class ObjectArray {
         Object[] object = new Object[7];
         object[0] = new Student(20220001, "문승주");
         object[1] = new Car("EV6","인터스텔라 그레이");
-        object[2] = new Student(20220002, "김건영");
+        object[2] = new Student(20220002, "장건녕");
         object[3] = new Car("K5", "블랙");
         object[4] = new Student(20220003, "임지현");
         object[5] ="문경원";

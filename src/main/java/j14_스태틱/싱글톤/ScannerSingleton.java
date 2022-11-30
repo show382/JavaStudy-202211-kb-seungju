@@ -12,7 +12,7 @@ public class ScannerSingleton {
     private    Scanner scanner;
 
     //1. 생성자가 private 접근지정자여야 한다.
-    private ScannerSingleton() {
+    public ScannerSingleton() {
         scanner = new Scanner(System.in);
     }
 
