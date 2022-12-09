@@ -9,15 +9,16 @@ public class EntityMain {
         System.out.println(entity.equals(entity2));
         System.out.println(entity.hashCode());
         System.out.println(entity2.hashCode());
-
+        entity.cmp();
+        
         System.out.println(entity.getAddress());
 
         System.out.println(Entity.class);
         Class c = Entity.class;
-
+        
         Object obj =new Student(20220001,"문승주");
-
-        System.out.println(Entity.class==entity.getClass());
+       
+        System.out.println(Entity.class==entity2.getClass());
         System.out.println(Entity.class.equals(obj.getClass()));
         System.out.println(obj instanceof Entity);
     }
